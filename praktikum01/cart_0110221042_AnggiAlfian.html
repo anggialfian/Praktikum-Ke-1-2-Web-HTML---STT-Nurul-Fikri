@@ -9,23 +9,39 @@
 </head>
 
 <body>
-    <h1 style="font-family: Tahoma; background-color: rgb(190, 190, 190);"><b>Site Name</b></h1>
-    <h2>Your Cart</h2>
-    <hr>
-    <table style="text-align: center;" border="0">
-        <thead>
+    <!-- Header -->
+    <div style="background-color: rgb(190, 190, 190);">
+        <table>
             <tr>
-                <td>Item</td>
-                <td>Price</td>
-                <td>Quantity</td>
+                <td><img src="assets/img/rounded_square.png" width="5px" style="margin-left: 10px; float: left;"></td>
+                <td>
+                    <h1><b>Site Name</b></h1>
+                </td>
+                <td></td>
+                <td style="padding-left: 50px; padding-right: 5px;"><a href="facebook.com"> Category 1</a></td>
+                <td style="padding-right: 5px;"><a href="instagram.com">Category 2</a></td>
+                <td style="padding-right: 270px;"><a href="youtube.com">Category 3</a></td>
+                <td><img src="assets/img/Magnifying_glass.png" width="15px"></td>
+                <td><img src="assets/img/Cart.png" width="15px"></td>
+                <td><b>Cart (1)</b></td>
             </tr>
-        </thead>
-        <tbody>
+        </table>
+    </div>
+    <!-- Content -->
+    <div style="float: left;">
+        <h2>Your Cart</h2>
+        <hr>
+        <table>
             <tr>
-                <td><img src="assets/img/baju.jpg" width="100px" alt="jam tangan">
+                <td style="padding-right: 250px; padding-left: 20; padding-bottom: 10px;">Item</td>
+                <td style="padding-right: 70px; padding-left: 20; padding-bottom: 10px;">Price</td>
+                <td style="padding-right: 20px; padding-left: 20; padding-bottom: 10px;">Quantity</td>
+            </tr>
+            <tr>
+                <td><img src="assets/img/baju.jpg" width="100px" style="float: left; padding-right: 15px;">
                     <h4>T-Shirt <br> Size : Small</h4>
                 </td>
-                <td>$20.00</td>
+                <td><b>$20.00</b></td>
                 <td><select name="Quantity" id="">
                         <option value="angka">1</option>
                         <option value="angka">2</option>
@@ -34,27 +50,61 @@
                         <option value="angka">5</option>
                     </select></td>
             </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h3>Subtotal : <b>$20.00</b></h3>
-    <hr>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h2 style="font-family: tahoma;">Site Name</h2>
-    <div style="text-align: right;">
-        <p>Stay In Touch! Join our Newsletter
-            <br>
-        <form action="Action.php">
-            <label for="email">Enter your email:</label>
-            <input type="email" id="email" name="email">
-            <input type="submit">
-        </form>
-        </p>
+        </table>
+        <hr>
+        <h3>Subtotal : <b>$20.00</b></h3>
+        <hr>
+    </div>
+
+    <!-- Summary Item -->
+    <div>
+        <table style="background-color: rgb(202, 202, 202); margin-left: 500px; margin-top: 25px;">
+            <tr>
+                <td><b>Summary (1 Item)</b></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Subtotal</td>
+                <td><b>$20.00</b></td>
+            </tr>
+            <tr>
+                <td>Shipping</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Est. Taxes</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td style="padding-right: 93px;"><b>Total</b></td>
+                <td><b>$20.00</b></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="Checkout" style="background-color:rgb(0, 0, 255); color: white;">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="clear: left; background-color: rgb(190, 190, 190);">
+        <table>
+            <tr>
+                <td style="padding-top: 5px; padding-left: 10px;">
+                    <b>Site Name</b><br>
+                    <img src="assets/img/Visa.png" width="25px">
+                </td>
+                <td style="padding-left: 25px; padding-right: 5px;"><a href="Youtube.com">Category X</a></td>
+                <td style="padding-right: 5px;"><a href="Facebook.com">Category Y</a></td>
+                <td style="padding-right: 125px;"><a href="Instagram.com">Category Z</a></td>
+                <td>Stay In Touch! Join our Newsletter<br>
+                    <form>
+                        <label for="email">Enter your email:</label>
+                        <input type="email" id="email" name="email">
+                        <input type="submit">
+                    </form>
+                </td>
+            </tr>
+
+        </table>
     </div>
 </body>
 
